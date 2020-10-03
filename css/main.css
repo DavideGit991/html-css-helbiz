@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .clearfix::after{
@@ -110,7 +111,7 @@ ul#menu_box3 li a {
 
 /* regole jumbotron */
 #jumbo {
-  background-opacity: 0.5;
+
   background-image: url("../img/jumbo.jpg");
   background-size: cover;
   /* padding-top: 50px; */
@@ -145,5 +146,23 @@ ul#menu-app li {
     }
 ul#menu-app li a {
   text-decoration: none;
+}
+
+
+/* regole sezione1 */
+.prodotto{background-color: #fafafa;
+  text-align: center;
+  margin:20px 0 ;
+
+}
+.learnmore{
+  text-decoration: none;
+}
+.title-prodotto,.subtitle-prodotto, .learnmore{
+  padding: 25px 0 ;
+}
+#imgbike{
+  width: 70%;
+  height:auto;
 }
 /* regole footer */
