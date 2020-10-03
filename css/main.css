@@ -14,7 +14,9 @@
 .white-box{
   background-color: white;
 }
-
+a{
+  text-decoration: none;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -111,7 +113,6 @@ ul#menu_box3 li a {
 
 /* regole jumbotron */
 #jumbo {
-
   background-image: url("../img/jumbo.jpg");
   background-size: cover;
   /* padding-top: 50px; */
@@ -149,8 +150,9 @@ ul#menu-app li a {
 }
 
 
-/* regole sezione1 */
-.prodotto{background-color: #fafafa;
+/* regole sezione1 (monopattino e bici)*/
+.prodotto{
+  background-color: #fafafa;
   text-align: center;
   margin:20px 0 ;
 
@@ -164,5 +166,63 @@ ul#menu-app li a {
 #imgbike{
   width: 70%;
   height:auto;
+}
+
+/* regole sezione 2 (vecchietto) */
+.old-box {
+  background-image: url("../img/anziano.jpg");
+  background-size: cover;
+  /* padding-top: 50px; */
+  min-height: 700px;
+}
+.relative{
+  position: relative;
+}
+.title-old{
+  font-size: 25px;
+  position: absolute;
+  top: 820px;
+  left: 20%;
+}
+.iphoneimg{
+  position: absolute;
+  top: 440px;
+  left: 20%;
+}
+#imgiphone{
+  /* margin: 20px auto; */
+  width: 70%;
+  height: auto;
+}
+.subtitle-old{
+  font-size: 25px;
+  position: absolute;
+  top: 830px;
+  left: 20%;
+}
+
+/* proprietà sezione 3 */
+.sez3{
+  margin-top: 260px;
+}
+
+#imgmobility{
+  width: 100%;
+  height: auto;
+}
+.scritte-mobility-box1{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  right: 12%;
+  bottom: 45%;
+}
+.mobility-box2{
+  background-color: #354554;
+}
+#imgphone{
+  width: auto;
+  height: 50%;
 }
 /* regole footer */
