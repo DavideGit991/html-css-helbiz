@@ -27,6 +27,7 @@ img {
   /* min-height: 100px; */
   /* background-color: lightgreen; */
   border: solid 1px  #000;
+  index: 100;
   padding: 2px;
 }
 
@@ -43,7 +44,7 @@ img {
 /* header */
 
 header {
-  padding-top: 100px;
+  padding-top: 66px;
 
 }
 
@@ -59,10 +60,6 @@ header {
   display: none;
 }
 
-#jumbo {
-  padding-top: 50px;
-  min-height: 300px;
-}
 
 
 /* regole corpo pagina */
@@ -109,5 +106,44 @@ ul#menu_box3 li a {
 #imgsocial {
   padding-top: 50px;
   min-height: 300px;
+}
+
+/* regole jumbotron */
+#jumbo {
+  background-opacity: 0.5;
+  background-image: url("../img/jumbo.jpg");
+  background-size: cover;
+  /* padding-top: 50px; */
+  min-height: 800px;
+}
+.jumbo-box{
+  margin-top: 25%;
+  color: #fff;
+  text-align: center;
+}
+.jumbo-title{
+  padding: 2px 2%;
+  font-size: 60px;
+}
+.jumbo-subtitle{
+  margin-top: 10px;
+  padding: 2px 2%;
+  font-size: 25px;
+}
+.app-box{
+margin-top: 30px;
+}
+#app{
+  width: 45%;
+  height:auto;
+}
+ul#menu-app li {
+  width: 50%;
+  /* font-family: sans-serif; */
+  display: block;
+  float: left;
+    }
+ul#menu-app li a {
+  text-decoration: none;
 }
 /* regole footer */
